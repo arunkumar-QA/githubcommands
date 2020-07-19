@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73" started-at="2020-07-17T21:00:03 IST" finished-at="2020-07-17T21:00:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73" started-at="2020-07-17T21:00:03 IST" finished-at="2020-07-17T21:00:03 IST">
+      <class name="testNG.CheckingDependsOn">
+        <test-method status="PASS" signature="methodTwo()[pri:1, instance:testNG.CheckingDependsOn@185d8b6]" name="methodTwo" duration-ms="14" started-at="2020-07-17T21:00:03 IST" finished-at="2020-07-17T21:00:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTwo -->
+        <test-method status="PASS" signature="methodOne()[pri:0, instance:testNG.CheckingDependsOn@185d8b6]" name="methodOne" duration-ms="2" started-at="2020-07-17T21:00:03 IST" depends-on-methods="testNG.CheckingDependsOn.methodTwo" finished-at="2020-07-17T21:00:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodOne -->
+      </class> <!-- testNG.CheckingDependsOn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
